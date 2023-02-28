@@ -19,7 +19,7 @@ public class ElmasYapimi{
 
         int a;
         a = n;
-        
+
         for (n = n-1; n >= 0 ; n--) {
             for (int j = a; j > n ; j--) {
                 System.out.print(" ");
@@ -31,3 +31,23 @@ public class ElmasYapimi{
         }
     }
 }
+
+/*
+
+Output:
+
+Bir Sayı Giriniz: 5
+     *
+    ***
+   *****
+  *******
+ *********
+***********
+ *********
+  *******
+   *****
+    ***
+     *
+
+*/
+
